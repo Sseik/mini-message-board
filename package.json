@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "mini-message-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sseik/mini-message-board.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sseik/mini-message-board/issues"
+  },
+  "homepage": "https://github.com/Sseik/mini-message-board#readme",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.0",
+    "prettier-plugin-ejs": "^1.0.3"
+  }
+}
