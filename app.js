@@ -9,6 +9,7 @@ app.set("view engine", "ejs");
 
 const assetsPath = path.join(import.meta.dirname, "public");
 app.use(express.static(assetsPath));
+app.use(express.urlencoded());
 
 app.use("/", indexRouter);
 

@@ -1,0 +1,22 @@
+form,
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 25vw;
+
+  textarea {
+    height: 25vh;
+  }
+}
+
+button {
+  padding: 16px 64px;
+  margin: auto;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 8px;
+}

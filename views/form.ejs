@@ -3,7 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css">
     <title>Message Form</title>
   </head>
-  <body></body>
+  <body>
+    <h1><%= title %></h1>
+    <form action="/new" method="post">
+      <fieldset>
+        <legend>Message: </legend>
+        <label for="user">User: </label>
+        <input type="text" name="user" id="user" required/>
+        <label for="text">Text: </label>
+        <textarea name="text" id="text" required></textarea>
+        <button type="submit">Send</button>
+      </fieldset>
+    </form>
+  </body>
 </html>

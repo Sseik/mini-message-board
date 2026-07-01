@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css">
-    <title>Messaging Board</title>
+    <title><%= title %></title>
   </head>
   <body>
     <header>
-      <h1>Messaging Board</h1>
+      <h1><%= title %></h1>
     </header>
     <ul>
       <% messages.forEach((message) => { %>
       <%- include("message", { message }) %>
       <% }); %>
     </ul>
+    <a href="/new">Add a message</a>
   </body>
 </html>
