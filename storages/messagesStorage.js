@@ -1,7 +1,5 @@
 import { Pool } from "pg";
 
-process.loadEnvFile();
-
 class MessagesStorage {
   constructor() {
     this.pool = new Pool({
